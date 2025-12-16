@@ -3,41 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Medieval RPG Simulator - Official Site</title>
+    <title>Horse Games - Official Site</title>
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #1a1a1a;
-            color: #f0f0f0;
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            text-align: center;
-        }
-        h1 {
-            color: #d4af37; /* Gold color */
-        }
-        p {
-            max-width: 600px;
-            line-height: 1.6;
-        }
-        .footer {
-            margin-top: 50px;
-            font-size: 0.8em;
-            color: #888;
-        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #121212; color: #ffffff; margin: 0; padding: 0; display: flex; flex-direction: column; min-height: 100vh; }
+        header { background-color: #1f1f1f; padding: 20px; text-align: center; border-bottom: 2px solid #333; }
+        h1 { margin: 0; color: #ffab00; }
+        .container { flex: 1; max-width: 800px; margin: 40px auto; padding: 0 20px; }
+        .app-card { background-color: #1e1e1e; border-radius: 12px; padding: 20px; margin-bottom: 20px; border: 1px solid #333; display: flex; align-items: center; gap: 20px; transition: transform 0.2s; }
+        .app-card:hover { transform: translateY(-5px); border-color: #ffab00; }
+        .app-icon { width: 80px; height: 80px; border-radius: 16px; background-color: #333; flex-shrink: 0; }
+        .app-info h2 { margin: 0 0 10px 0; color: #fff; }
+        .app-info p { margin: 0; color: #bbb; line-height: 1.5; }
+        footer { background-color: #1f1f1f; padding: 20px; text-align: center; color: #666; font-size: 14px; margin-top: auto; }
+        a { color: #ffab00; text-decoration: none; }
+        a:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
-    <h1>Medieval RPG Simulator</h1>
-    <p>Welcome to the official support page for Medieval RPG Simulator. Experience the life of a medieval warlord, manage your kingdom, and lead your armies to victory.</p>
-    
-    <div class="footer">
-        <p>Copyright &copy; 2025 Warlord Software. All rights reserved.</p>
-        <p><a href="app-ads.txt" style="color: #d4af37;">View app-ads.txt</a></p>
+<header>
+    <h1>Horse Games</h1>
+    <p>Mobile Games & Utilities</p>
+</header>
+<div class="container">
+    <p style="text-align: center; margin-bottom: 40px; color: #aaa;">
+        Developing immersive experiences and useful tools for everyday life.
+    </p>
+    <!-- App 1: Medieval RPG -->
+    <div class="app-card">
+        <!-- Placeholder for icon if you have one, or just a colored box -->
+        <div class="app-icon" style="background: linear-gradient(135deg, #4a1c1c, #000);"></div> 
+        <div class="app-info">
+            <h2>Medieval RPG Simulator</h2>
+            <p>Experience the life of a medieval warlord. Manage your kingdom, lead armies, and conquer new lands in this immersive text-based RPG.</p>
+        </div>
     </div>
+    <!-- App 2: Renk Bulucu -->
+    <div class="app-card">
+        <div class="app-icon" style="background: linear-gradient(135deg, #000, #333); display: flex; align-items: center; justify-content: center; font-size: 24px;">🎨</div>
+        <div class="app-info">
+            <h2>Renk Bulucu</h2>
+            <p>Detect colors instantly with your camera. Find HEX codes, generate color palettes, and create dynamic themes from the real world.</p>
+        </div>
+    </div>
+</div>
+<footer>
+    <p>&copy; 2025 Horse Games. All rights reserved.</p>
+    <p>
+        <a href="app-ads.txt">AdMob - app-ads.txt</a>
+    </p>
+</footer>
 </body>
 </html>
